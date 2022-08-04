@@ -68,22 +68,16 @@ Library __TE2015_Microcontroladores.lbr__ holds all the necessary components for
 | LED driver | 8 | LED3MM | LED, 3mm diameter | TE2015_Microcontroladores.lbr | 
 | LED driver | 8 | R_US | Resistor | TE2015_Microcontroladores.lbr |
 | LED driver | 2 |  MPQ2222 | QUAD NPN Transistor | TE2015_Microcontroladores.lbr |
-|
 | Analog temperature sensor | 1 | LM60CIZ | Analog temperature sensor | TE2015_Microcontroladores.lbr |
-|
 | 4-digit 7-segment display | 1 | TDCG1060M | 4-digit 7-segment display, Common Cathode | TE2015_Microcontroladores.lbr |
 | 4-digit 7-segment display | 9 | R_US | 130 OHM Resistor | TE2015_Microcontroladores.lbr |
 | 4-digit 7-segment display | 4 | R_US | 52 KOHM Resistor | TE2015_Microcontroladores.lbr |
 | 4-digit 7-segment display | 4 | BC547 | NPN transistor | TE2015_Microcontroladores.lbr |
-|
 | 16x2 LCD display | 2 | LCD_16X2NOHOLES | 16x2 LCD display | TE2015_Microcontroladores.lbr |
 | 16x2 LCD display | 2 | 3362P-1-103LF | 10KOHM Trimmer | TE2015_Microcontroladores.lbr |
-|
 | 4x4 matrix keypad | 16 | 1825910-2 | SPST push button | TE2015_Microcontroladores.lbr |
 | 4x4 matrix keypad | 4 | R_US | 1KOHM Resistor | TE2015_Microcontroladores.lbr |
-|
 | All of above | as required | GND | Ground connection | supply2 |
-|
 | Headers | 2 |  SS-128-T-2 | 1-row, 28-pin female header |TE2015_Microcontroladores.lbr |
 | Headers | 1 | PINHD-1X8BIG | 1-row, 8-pin female header |TE2015_Microcontroladores.lbr |
 | Headers | 1 | PINHD-2X14-CB | 2-row, 28-pin female header |TE2015_Microcontroladores.lbr |
