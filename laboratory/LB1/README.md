@@ -2,7 +2,7 @@
   <img src="../../.img/teclogo.png">
 </p>
 
-# LB1. Expansion Board: schematic capture
+# LB1. Expansion Board: Schematic Capture
 
 ## Description
 In this project you will design an expansion board with different peripherals to interface with the Curiosity Nano PIC18F57Q43 Evaluation board. Additionally, you can interface your expansion board with other microcontrollers such as Arduino, ESP8266, Raspberry Pi or any other microcontroller or FPGA evaluation board with the proper wiring. This project was designed for educational purposes, thus it only serves as an interface between the peripherals (e.g. LCD display, 7-segment displays, matrix keypad, and others), and an the microcontroller. No programming/debugging nor voltage regulation circuitry are considered. Moreover, no hardware drivers are included since these are meant to be softcoded by you and programmed on the microcontroller. 
@@ -117,11 +117,11 @@ Carry out an ERC test on your schematic diagram and check Erros and Warnings in 
 Deliverables for LB1 are:
 1. EAGLE project 
    * Include the schematic diagram without ERC errors.
-   * Push your project files into your GitHub repository
+   * Push your project files into your GitHub repository.
 2. Demostrative video 
    * Make a 3-minutes video explaining showing each of the different circuits on your schematic. 
    * Start explaining the values of power signals `VTG` and `VBUS`.
    * For the analog temperature sensor, according to its datasheet, explain what are the minimum and maximum values `VOUT` can output, as well as the corresponding temperature values.
    * The LED driver circuit uses the common-anode configuration and makes use of Darlington transistors to control the current across the LEDs. Explain how to determine the current across those LEDs. 
    * The 7-segment display circuit controls 4 digits that cannot be turned on at the same time due to limitation on the current the PIC18 can deliver. How do you propose to address this issue if we want to see the four digits on for our applications.
-   * Explain how the pull-up resistors of the 4x4 keypad work. Why it is benefical to use pull-ups for push-buttons and other devices? 
+   * Explain how the pull-up resistors of the 4x4 keypad work. Why it is benefical to use pull-ups for push-buttons and other devices?
