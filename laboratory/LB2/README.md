@@ -51,15 +51,15 @@ To generate your files click _Process Job_, find a location for your ZIP file an
 <p align="center"><img src="img/gerber2.png"/></p>
 The files will be then generated and located in the folder of your choice. 
 
-### __STEP 6. CREATE THE 3D RENDER OF YOUR BOARD__
-### __STEP 7. SEND OUT YOUR FILES FOR BOARD MANUFACTURE__
+### __STEP 6. SEND OUT YOUR FILES FOR BOARD MANUFACTURE__
+Some manufacturers have a quotation system that allow you to upload your GERBER files to then generate an estimated price for your design. Select the minimum quantity of boards that the manufacturer can fabricate and get an approximate cost for your design. See below three reliable manufacturers with an self quotation system that you can use for your  board:
 
 <p align="center">
 <a href="https://oshpark.com/"><img src="https://img.shields.io/badge/OSH_PARK-orange"/></a>
 <a href="https://jlcpcb.com"><img src="https://img.shields.io/badge/JCLPCB-orange"/></a>
 <a href="https://www.pcbway.com"><img src="https://img.shields.io/badge/PCBway-orange"/></a></p>
 
-### __STEP 8. ORDER THE ELECTRONIC COMPONENTS__
+### __STEP 7. ORDER THE ELECTRONIC COMPONENTS__
 <p align="center">
 <a href="https://www.digikey.com.mx/short/jh2v3b2m"><img src="https://img.shields.io/badge/TE2015-COMPONENT_LIST-success"/></a></p>
 
@@ -67,7 +67,9 @@ The files will be then generated and located in the folder of your choice.
 Deliverables for LB2 are:
 1. EAGLE project 
    * Include the schematic diagram without ERC errors.
+   * PCB layout without DRC errors  
    * Push your project files into your GitHub repository.
 2. Demostrative video 
-   * Make a 3-minutes video showing the finished board. Perform a DRC test on-video to demonstrate that your design is ready for fabrication
-   * Show the 3D view of your video on Fusion 360. 
+   * Make a 2-minutes video showing the finished board to complement your last video presentation. In this case, perform a DRC test to demonstrate that your design is ready for fabrication.
+   * Also, explain the process to generate the Gerber files and show the quotation you get from the manufacturer of your choice. _Note that a similar DRC will be carried out by the manufacturer to make sure your board can be manufactured. You will get a confirmation if your design is ready for fabrication_. 
+   * _Optional:_ Show the 3D view of your video on Fusion 360. 
