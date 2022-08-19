@@ -37,9 +37,8 @@ This repository aims to help you understand the topics covered in TE2015 Microco
 | NAME | WEEK | TOPIC | DESCRIPTION | LANGUAGE | 
 |---|---|---|---|---| 
 | PIC18F4550_BSF.X | 34 | SFRs | Bank operations using BSR | PIC-AS |
-| PIC18F57Q43_GPIO_config | 34 | SFRs & GPIO | Configuration of TRIS y ANSEL SFRs to blink an on-board LED | PIC-AS |
-
 <!--
+| [PIC18F57Q43_GPIO_config](mplab/PIC18F4550_BSF.X) | 34 | SFRs & GPIO | Configuration of TRIS y ANSEL SFRs to blink an on-board LED | PIC-AS |
 | XXXX | 35 | Stack & Addressing | PENDING | PIC-AS |
 | XXXX | 36 | PIC18 ISA | PENDING | PIC-AS |
 | XXXX | 37 | Flow control | PENDING | PIC-AS |
