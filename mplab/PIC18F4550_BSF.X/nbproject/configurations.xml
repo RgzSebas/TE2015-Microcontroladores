@@ -13,7 +13,6 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>PIC18F4550_BSR.s</itemPath>
-      <itemPath>PIC18F4550_AccessRAM.s</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -64,14 +63,6 @@
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
       </makeCustomizationType>
-      <item path="PIC18F4550_BSR.s" ex="true" overriding="false">
-        <pic-as-assembler>
-        </pic-as-assembler>
-        <pic-as-global>
-        </pic-as-global>
-        <pic-as-linker>
-        </pic-as-linker>
-      </item>
       <Simulator>
         <property key="codecoverage.enabled" value="Disable"/>
         <property key="codecoverage.enableoutputtofile" value="false"/>

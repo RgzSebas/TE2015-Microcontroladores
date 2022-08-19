@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=PIC18F4550_AccessRAM.s
+SOURCEFILES_QUOTED_IF_SPACED=PIC18F4550_BSR.s
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/PIC18F4550_AccessRAM.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/PIC18F4550_AccessRAM.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/PIC18F4550_BSR.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/PIC18F4550_BSR.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/PIC18F4550_AccessRAM.o
+OBJECTFILES=${OBJECTDIR}/PIC18F4550_BSR.o
 
 # Source Files
-SOURCEFILES=PIC18F4550_AccessRAM.s
+SOURCEFILES=PIC18F4550_BSR.s
 
 
 
@@ -95,21 +95,21 @@ FINAL_IMAGE_NAME_MINUS_EXTENSION=${DISTDIR}/PIC18F4550_BSF.X.${IMAGE_TYPE}
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: pic-as-assembler
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/PIC18F4550_AccessRAM.o: PIC18F4550_AccessRAM.s  nbproject/Makefile-${CND_CONF}.mk 
+${OBJECTDIR}/PIC18F4550_BSR.o: PIC18F4550_BSR.s  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/PIC18F4550_AccessRAM.o 
+	@${RM} ${OBJECTDIR}/PIC18F4550_BSR.o 
 	${MP_AS} -mcpu=PIC18F4550 -c \
-	-o ${OBJECTDIR}/PIC18F4550_AccessRAM.o \
-	PIC18F4550_AccessRAM.s \
+	-o ${OBJECTDIR}/PIC18F4550_BSR.o \
+	PIC18F4550_BSR.s \
 	 -D__DEBUG=1  -misa=std -msummary=+mem,-psect,-class,-hex,-file,-sha1,-sha256,-xml,-xmlfull -fmax-errors=20 -mwarn=0 -xassembler-with-cpp
 	
 else
-${OBJECTDIR}/PIC18F4550_AccessRAM.o: PIC18F4550_AccessRAM.s  nbproject/Makefile-${CND_CONF}.mk 
+${OBJECTDIR}/PIC18F4550_BSR.o: PIC18F4550_BSR.s  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/PIC18F4550_AccessRAM.o 
+	@${RM} ${OBJECTDIR}/PIC18F4550_BSR.o 
 	${MP_AS} -mcpu=PIC18F4550 -c \
-	-o ${OBJECTDIR}/PIC18F4550_AccessRAM.o \
-	PIC18F4550_AccessRAM.s \
+	-o ${OBJECTDIR}/PIC18F4550_BSR.o \
+	PIC18F4550_BSR.s \
 	 -misa=std -msummary=+mem,-psect,-class,-hex,-file,-sha1,-sha256,-xml,-xmlfull -fmax-errors=20 -mwarn=0 -xassembler-with-cpp
 	
 endif
