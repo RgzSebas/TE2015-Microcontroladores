@@ -59,9 +59,14 @@ Some manufacturers have a quotation system that allow you to upload your GERBER 
 <a href="https://jlcpcb.com"><img src="https://img.shields.io/badge/JCLPCB-orange"/></a>
 <a href="https://www.pcbway.com"><img src="https://img.shields.io/badge/PCBway-orange"/></a></p>
 
-### __STEP 7. ORDER THE ELECTRONIC COMPONENTS__
+### __STEP 7. GET THE ELECTRONIC COMPONENTS__
+The final step is to get the electronic components for your board. In this sense, there is a pre-made Bill of Materials (BOM) that keeps an updated list of components required for the assembly. It is kept on Digikey and you can access it following the link below:
 <p align="center">
 <a href="https://www.digikey.com.mx/short/jh2v3b2m"><img src="https://img.shields.io/badge/TE2015-COMPONENT_LIST-success"/></a></p>
+
+The BOM keeps the minimum amount of each component required to assembly one board. Feel free to modify the component quantity in case you want to assemble more than one board or get spares in case you loose or damage any component during assembly and soldering.
+
+If you would like to receive your components at campus instead of a personal address, ask your professor for address details. 
 
 ### __DELIVERABLES__
 Deliverables for LB2 are:
@@ -71,5 +76,7 @@ Deliverables for LB2 are:
    * Push your project files into your GitHub repository.
 2. Demostrative video 
    * Make a 2-minutes video showing the finished board to complement your last video presentation. In this case, perform a DRC test to demonstrate that your design is ready for fabrication.
-   * Also, explain the process to generate the Gerber files and show the quotation you get from the manufacturer of your choice. _Note that a similar DRC will be carried out by the manufacturer to make sure your board can be manufactured. You will get a confirmation if your design is ready for fabrication_. 
+   * Also, explain the process to generate the Gerber files and show the quotation you get from the manufacturer of your choice.
+      
+      _Note that a similar DRC will be carried out by the manufacturer to make sure your board can be manufactured. You will get a confirmation if your design is ready for fabrication_. 
    * _Optional:_ Show the 3D view of your video on Fusion 360. 
