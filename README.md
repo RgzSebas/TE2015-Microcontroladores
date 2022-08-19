@@ -13,22 +13,6 @@ This repository aims to help you understand the topics covered in TE2015 Microco
 * To learn by doing on the develpment of timing-based firmware 
 * To study serial communication protocols to communicate a microcontroller with an external device
 
-## Hands-on Exercises
-| NAME | WEEK | TOPIC | DESCRIPTION | LANGUAGE | 
-|---|---|---|---|---| 
-| PIC18F4550_BSF.X | 34 | SFRs | Bank operations using BSR | PIC-AS |
-| PIC18F57Q43_GPIO_config | 34 | SFRs & GPIO | Configuration of TRIS y ANSEL SFRs to blink an on-board LED | PIC-AS |
-| XXXX | 35 | Stack & Addressing | PENDING | PIC-AS |'
-| XXXX | 36 | PIC18 ISA | PENDING | PIC-AS |
-| XXXX | 37 | Flow control | PENDING | PIC-AS |
-| XXXX | 39 | Operators and precedence | PENDING | PIC-AS |
-| XXXX | 40 | Flow control | PENDING | C |
-| XXXX | 41 | Pointers, Arrays & Scopes| PENDING | C |
-| XXXX | 42 | GPIO | PENDING | C |
-| XXXX | 44 | Interrupts | PENDING | C |
-| XXXX | 45 | Timers | PENDING | C |
-| XXXX | 46 | ADC & UART | PENDING | C |
-
 ## Laboratory
 | WEEK | DATE | LABORATORY |
 | :---: | :--- | :--- |
@@ -49,8 +33,21 @@ This repository aims to help you understand the topics covered in TE2015 Microco
 | 47 | 14/Nov | LB11 Asynchronous serial communications|
 | 48 | 21/Nov | HOLIDAY |
 
-## About this GitHub Repository
+## Hands-on Exercises
+| NAME | WEEK | TOPIC | DESCRIPTION | LANGUAGE | 
+|---|---|---|---|---| 
+| PIC18F4550_BSF.X | 34 | SFRs | Bank operations using BSR | PIC-AS |
+| PIC18F57Q43_GPIO_config | 34 | SFRs & GPIO | Configuration of TRIS y ANSEL SFRs to blink an on-board LED | PIC-AS |
 
-1. Create a GitHub account
-2. Download and install GitKraken
-3. Clone the class repository
+<!--
+| XXXX | 35 | Stack & Addressing | PENDING | PIC-AS |
+| XXXX | 36 | PIC18 ISA | PENDING | PIC-AS |
+| XXXX | 37 | Flow control | PENDING | PIC-AS |
+| XXXX | 39 | Operators and precedence | PENDING | PIC-AS |
+| XXXX | 40 | Flow control | PENDING | C |
+| XXXX | 41 | Pointers, Arrays & Scopes| PENDING | C |
+| XXXX | 42 | GPIO | PENDING | C |
+| XXXX | 44 | Interrupts | PENDING | C |
+| XXXX | 45 | Timers | PENDING | C |
+| XXXX | 46 | ADC & UART | PENDING | C |
+-->
