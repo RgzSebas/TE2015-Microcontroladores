@@ -2,7 +2,7 @@
   <img src="../../.img/teclogo.png">
 </p>
 
-# **Laboratory 2. PIC18 and MPLAB basics**
+# **Laboratory 3. PIC18 and MPLAB basics**
 
 ## **OBJECTIVES**
 * Create projects on MPLAB X
