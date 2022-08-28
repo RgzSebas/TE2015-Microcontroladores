@@ -2,18 +2,16 @@
   <img src="../../.img/teclogo.png">
 </p>
 
-# **Laboratory 3. PIC18 and MPLAB basics**
+# **LB3. PIC18 and MPLAB basics**
 
 ## **OBJECTIVES**
 * Create projects on MPLAB X
-* Set configuration bits using MPLAB Code Configurator
-* Define program sections
-* Drive LED strings using a port of the microcontroller
+* Set configuration bits using MPLAB
+* Generate delay routines using assembly for simulation and physical implementation
+* Blink a LED with a frequency of 1 second
 
 ## **PRE-LAB WORK**
-Before our lab session it is required that you install the development tools we will use; this include _MPLAB X_, which is Microchip's integrated development environment (IDE). As we will write C code for an 8-bit microcontroller (&mu;C) architecture, we also require to install the corresponding Microchip's C compiler, so called _XC8_. We will also make use of a plugin that will help us generate configuration code in a straightfoward way, which is called MPLAB Code Configurator (MCC). Finally, we will use GitHub for version control of our PIC18 coding projects. 
-
-The following three sections will guide you with the installation and setup of all the required tools for our lab; so make sure you properly install everything before our lab session. 
+Before our lab session it is required that you install the development tools we will use; this include _MPLAB X_, which is Microchip's integrated development environment (IDE). As we will write C code for an 8-bit microcontroller (&mu;C) architecture, we also require to install the corresponding Microchip's Assembly and C compiler, so called _XC8_.
 
 ### 1. MPLAB X IDE
 1. Go to https://www.microchip.com/mplab/mplab-x-ide, scroll down to Downloads section and download the latest version of MPLAB X IDE
