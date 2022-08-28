@@ -19,6 +19,7 @@ This repository aims to help you understand the topics covered in TE2015 Microco
 | 33 |  8/Aug | [LB1 Hardware design: schematic capture](laboratory/LB1/README.md) |
 | 34 | 15/Aug | [LB2 Hardware design: physicial layout](laboratory/LB2/README.md) |
 | 35 | 22/Aug | [LB2 Hardware design: physicial layout](laboratory/LB2/README.md) |
+<!--
 | 36 | 29/Aug | LB3 Introduction to MPLAB X and PIC18 |
 | 37 | 5/Sep  | LB4 Assembly programming of PIC18 |
 | 38 | 12/Sep | LB4 Assembly programming of PIC18 |
@@ -32,6 +33,7 @@ This repository aims to help you understand the topics covered in TE2015 Microco
 | 46 | 7/Nov  | LB10 Analog inputs for microcontrollers|
 | 47 | 14/Nov | LB11 Asynchronous serial communications|
 | 48 | 21/Nov | HOLIDAY |
+-->
 
 ## Hands-on Exercises
 | NAME | WEEK | TOPIC | DESCRIPTION | LANGUAGE | 
