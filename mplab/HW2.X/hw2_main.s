@@ -25,13 +25,13 @@ MAIN:
     MOVLW   0X02H
     MOVWF   OSCFRQ,1
 
-    ; LED BIT CONFIGURATION
-    BCF	    TRISF,3,0   ;Configure Pin F.3 as output (on-board LED)
+    ; GPIO CONFIGURATION
+    BCF	    TRISF,3,0   ;Configure Pin F3 as output (on-board LED)
     BSF	    LATF,3,0    ;Turn off on-board LED
-
-    ; GPIO PORT CONFIGURATION
-    MOVLB   0x04	;Set Bank 4
-    CLRF    TRISA,1	;Set PORT A as output (BSR)
+    BSF	    TRISB,4,0	;Configure Pin B4 as input (on-board switch)
+    BANKSEL ANSELB
+    CLRF    ANSELB,1
+    SETF    WPUB,1
 
 ; 1) Assign literal 01101101B to Port A through WREG
     MOVLW   01101101B	;Move 0X6D to WREG
