@@ -29,6 +29,7 @@ MAIN:
     BCF	    TRISF,3,0   ;Configure Pin F3 as output (on-board LED)
     BSF	    LATF,3,0    ;Turn off on-board LED
     BSF	    TRISB,4,0	;Configure Pin B4 as input (on-board switch)
+    CLRF    TRISA,0
     BANKSEL ANSELB
     CLRF    ANSELB,1
     SETF    WPUB,1
