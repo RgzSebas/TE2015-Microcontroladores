@@ -1,6 +1,8 @@
 reserved/
 laboratory/LB3/LB3.X
-laboratory/LB4/
+laboratory/LB3/LB3_PIC18F45K50.X
+laboratory/LB4/*
+!laboratory/LB4/BlinkLED_PIC18F45K50.hex
 laboratory/LB5/
 laboratory/LB6/
 laboratory/LB7/
