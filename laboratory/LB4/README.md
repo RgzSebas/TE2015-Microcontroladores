@@ -92,7 +92,43 @@ To make sure of the proper functioning of your board and microcontroller we will
    <img src="img/sch.png">
 </div>
 
-3. Create an MPLAB X project for the PIC18F45K50 device and write a program that turns on all 8 LEDs at the same time. Use a delay of 200 ms for the ON and OFF states of the LEDs.
+3. Create an MPLAB X project for the PIC18F45K50 device and write a program that turns on all 8 LEDs at the same time. Use a delay of 200 ms for the ON and OFF states of the LEDs. For this, use `delays.inc` library, which contains a variety opf delays for you to use in your programs. Use the following code as a reference:
+
+```
+PROCESSOR   18F45K50
+#include    <xc.inc>
+#include    "configuration_bits.inc"
+#include    "delays.inc"
+
+PSECT udata_acs
+; DECLARE HERE YOUR VARIABLES WITH FORMAT: "VAR_NAME: DS 1"
+
+PSECT	resetVec, class=CODE, reloc=2
+
+PSECT	absdata, abs, ovrld
+absdata:
+    org	    0x1000
+
+resetVec:
+    goto    MAIN
+
+PSECT code
+MAIN:
+    ; CLOCK CONFIGURATION
+    BANKSEL OSCCON	;ACCESS TO OSCCON REGISTER 
+    MOVLW   0x5E	   ;4MHZ FREQUENCY OF INTERNAL OSCILLATOR
+    MOVWF   OSCCON,1	;LOAD DATA THROUGH BSR
+
+    ; GPIO CONFIGURATION
+    CLRF    TRISB,0   ;CONFIGURE PORT B AS OUTPUT
+    SETF    LATB,0    ;TURN OFF LEDS CONNECTED TO PORT B
+
+; ---------------------;
+; WRITE HERE YOUR CODE ;
+;----------------------;
+
+END resetVec
+```
 
 ### **EXERCISE 3: THE KNIGHT RIDER SEQUENCE**
 For the _Knight Rider_ sequence you will use 8 LEDs and the 8 bits of Port B from your &mu;C. This is a LED driving sequence that switches on a series of LEDs one after the other in one direction, and when the last LED is reached, it turns back on the opposite direction, as seen below. This sequence was used in the 90's TV show "The Knight Raider", hence the name. 
