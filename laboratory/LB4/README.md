@@ -5,10 +5,11 @@
 # **LB4. GENERAL PURPOSE INPUT/OUTPUT**
 
 ## **OBJECTIVES**
-* Create projects on MPLAB X
-* Set configuration bits using MPLAB
-* Generate delay routines using assembly for simulation and physical implementation
-* Blink a LED with a frequency of 1 second
+* Program HEX files on microcontroller through MPLAB IPE and IDE
+* Control a full GPIO port of the microcontroller
+* Develop complex LED sequences using PIC-AS
+* Understand flowchart to develop PIC-AS code
+* Translate C code to PIC-AS code 
 
 ## **DESCRIPTION**
 Before the laboratory session, it is important that you borrow a Cursiosity HPC board and a PIC18F45K50 microcontroller from our electronics stockroom on A7-437. Usually, the Curiosity board already comes with a microcontroller on-board; however, make sure that the microcontroller's part number is PIC18F45K50. If this is not the case, you can either ask for a different board or for the correct microcontroller and mount it yourself on the board. Below is an image of the Curiosity HPC board with the 40-pin PIC18F45K50 microcontroller.
