@@ -3,11 +3,11 @@ Microchip MPLAB XC8 PIC(R) Assembler V2.36
 Linker command line:
 
 -W-3 --edf=C:\Program Files\Microchip\xc8\v2.36\pic\dat\en_msgs.txt -cs \
-  -h+dist/default/debug\HW2.X.debug.sym \
-  --cmf=dist/default/debug\HW2.X.debug.cmf -z -Q18F57Q43 \
-  -oC:\Users\matvaz\AppData\Local\Temp\xcAs4og.4 -ver=XC8 PIC(R) Assembler \
-  -Mdist/default/debug/HW2.X.debug.map -E1 --acfsm=1493 -ACODE=00h-01FFFFh \
-  -ACONST=00h-01FFFFh -ASMALLCONST=02600h-026FFhx474 \
+  -h+dist/default/production\HW2.X.production.sym \
+  --cmf=dist/default/production\HW2.X.production.cmf -z -Q18F57Q43 \
+  -oC:\Users\matvaz\AppData\Local\Temp\xcAs10do.4 -ver=XC8 PIC(R) Assembler \
+  -Mdist/default/production/HW2.X.production.map -E1 --acfsm=1493 \
+  -ACODE=00h-01FFFFh -ACONST=00h-01FFFFh -ASMALLCONST=02600h-026FFhx474 \
   -AMEDIUMCONST=02600h-0FFFFh,012600h-01FFFFh -ACOMRAM=0500h-055Fh \
   -AABS1=0500h-025FFh -ABIGRAM=0500h-025FFh \
   -ARAM=0560h-05FFh,0600h-06FFhx32 -ABANK5=0560h-05FFh -ABANK6=0600h-06FFh \
@@ -23,7 +23,7 @@ Linker command line:
   -ABANK34=02200h-022FFh -ABANK35=02300h-023FFh -ABANK36=02400h-024FFh \
   -ABANK37=02500h-025FFh -ASFR=00h-0FFhx4,0400h-045Fh,0460h-04FFh \
   -ABIGSFR=00h-04FFh -ACONFIG=030000Ah-0300011h -AIDLOC=0200000h-020003Fh \
-  -AEEDATA=0380000h-03803FFh build/default/debug/hw2_main.o 
+  -AEEDATA=0380000h-03803FFh build/default/production/hw2_main.o 
 
 Object code version is 3.11
 
@@ -32,14 +32,14 @@ Machine type is 18F57Q43
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-build/default/debug/hw2_main.o
+build/default/production/hw2_main.o
                 config                           300000   300000        A        0       4
                 absdata                            1000     1000        4        0       0
-                code                               1004     1004       20      802       0
+                code                               1004     1004       50      802       0
 
 TOTAL           Name                               Link     Load   Length     Space
         CLASS   CODE           
-                code                               1004     1004       20         0
+                code                               1004     1004       50         0
 
         CLASS   CONST          
 
@@ -138,7 +138,7 @@ TOTAL           Name                               Link     Load   Length     Sp
 
 SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class
 
-                code                           001004  000020  001024       802       0  CODE    
+                code                           001004  000050  001054       802       0  CODE    
 
 
 UNUSED ADDRESS RANGES
@@ -178,14 +178,14 @@ UNUSED ADDRESS RANGES
         BANK8            000800-0008FF              100
         BANK9            000900-0009FF              100
         BIGRAM           000500-000FFF              B00
-                         001024-0025FF             15DC
+                         001054-0025FF             15AC
         BIGSFR           000000-0004FF              500
         CODE             000000-000FFF             1000
-                         001024-01FFFF            1EFDC
+                         001054-01FFFF            1EFAC
         COMRAM           000500-00055F               60
         CONFIG           30000A-300011                8
         CONST            000000-000FFF             1000
-                         001024-01FFFF            1EFDC
+                         001054-01FFFF            1EFAC
         EEDATA           380000-3803FF              400
         IDLOC            200000-20003F               40
         MEDIUMCONST      002600-00FFFF             DA00
@@ -242,6 +242,6 @@ __Ludata_bank35 udata_bank35 000000  __Ludata_bank36 udata_bank36 000000
 __Ludata_bank37 udata_bank37 000000  __Ludata_bank5  udata_bank5  000000
 __Ludata_bank6  udata_bank6  000000  __Ludata_bank7  udata_bank7  000000
 __Ludata_bank8  udata_bank8  000000  __Ludata_bank9  udata_bank9  000000
-__S0            (abs)        001024  __S1            (abs)        000000
+__S0            (abs)        001054  __S1            (abs)        000000
 __S3            (abs)        000000  isa$std         (abs)        000001
 isa$xinst       (abs)        000000  

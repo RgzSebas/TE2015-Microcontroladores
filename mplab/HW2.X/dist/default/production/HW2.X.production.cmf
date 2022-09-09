@@ -11,9 +11,9 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$build/default/debug/hw2_main.o
+$build/default/production/hw2_main.o
 absdata - 0 1000 1000 4 1 1
-code CODE 0 1004 1004 20 1 2
+code CODE 0 1004 1004 50 1 2
 config CONFIG 4 300000 300000 A 1 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
@@ -29,11 +29,11 @@ BANK7 700-7FF 1
 BANK8 800-8FF 1
 BANK9 900-9FF 1
 CONST 0-FFF 1
-CONST 1024-1FFFF 1
+CONST 1054-1FFFF 1
 IDLOC 200000-20003F 1
 SMALLCONST 2600-1FFFF 1
 CODE 0-FFF 1
-CODE 1024-1FFFF 1
+CODE 1054-1FFFF 1
 BANK10 A00-AFF 1
 BANK11 B00-BFF 1
 BANK12 C00-CFF 1
@@ -63,7 +63,7 @@ BANK35 2300-23FF 1
 BANK36 2400-24FF 1
 BANK37 2500-25FF 1
 BIGRAM 500-FFF 1
-BIGRAM 1024-25FF 1
+BIGRAM 1054-25FF 1
 BIGSFR 0-4FF 1
 COMRAM 500-55F 1
 CONFIG 30000A-300011 1
@@ -83,24 +83,48 @@ MEDIUMCONST 12600-1FFFF 1
 # are in ascending order of addresses.
 # All other numeric values are in decimal.
 %LINETAB
-$build/default/debug/hw2_main.o
-1000 absdata ABS >13:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-2000 absdata ABS >16:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-1004 code CODE >21:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-1006 code CODE >22:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-1008 code CODE >23:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-100A code CODE >24:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-100C code CODE >25:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-100E code CODE >28:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-1010 code CODE >29:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-1012 code CODE >32:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-1014 code CODE >33:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-1016 code CODE >36:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-1018 code CODE >37:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-101A code CODE >40:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-101C code CODE >41:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-101E code CODE >44:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
-1020 code CODE >47:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\reserved\HW2.X\hw2_main.s
+$build/default/production/hw2_main.o
+1000 absdata ABS >16:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+2000 absdata ABS >19:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1004 code CODE >24:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1006 code CODE >25:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1008 code CODE >26:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+100A code CODE >27:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+100C code CODE >28:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+100E code CODE >31:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1010 code CODE >32:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1012 code CODE >33:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1014 code CODE >35:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1016 code CODE >37:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1018 code CODE >38:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+101A code CODE >39:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+101C code CODE >40:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+101E code CODE >43:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1020 code CODE >44:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1022 code CODE >47:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1024 code CODE >48:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1026 code CODE >51:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1028 code CODE >55:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+102A code CODE >59:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+102C code CODE >60:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+102E code CODE >61:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1030 code CODE >64:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1032 code CODE >65:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1034 code CODE >66:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1036 code CODE >71:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1038 code CODE >72:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+103A code CODE >73:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+103C code CODE >74:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+103E code CODE >79:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1040 code CODE >80:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1042 code CODE >81:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1044 code CODE >82:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1046 code CODE >85:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1048 code CODE >86:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+104A code CODE >90:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+104C code CODE >91:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+104E code CODE >92:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
+1050 code CODE >93:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\mplab\HW2.X\hw2_main.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -153,7 +177,7 @@ __Hudata_bank35 0 0 ABS 0 udata_bank35 -
 __Hudata_bank36 0 0 ABS 0 udata_bank36 -
 __Hudata_bank37 0 0 ABS 0 udata_bank37 -
 __HresetVec 0 0 ABS 0 resetVec -
-isa$xinst 0 0 ABS 0 - build/default/debug/hw2_main.o
+isa$xinst 0 0 ABS 0 - build/default/production/hw2_main.o
 __Hedata 0 0 ABS 0 edata -
 __Hudata 0 0 ABS 0 udata -
 __Hconfig 30000A 0 CONFIG 4 config -
@@ -164,7 +188,7 @@ __Hdata 0 0 ABS 0 data -
 __Lcode 0 0 ABS 0 code -
 __Ldata 0 0 ABS 0 data -
 __Habsdata 1004 0 ABS 0 absdata -
-__S0 1024 0 ABS 0 - -
+__S0 1054 0 ABS 0 - -
 __S1 0 0 ABS 0 - -
 __S3 0 0 ABS 0 - -
 __Ludata_bank10 0 0 ABS 0 udata_bank10 -
@@ -196,7 +220,7 @@ __Ludata_bank35 0 0 ABS 0 udata_bank35 -
 __Ludata_bank36 0 0 ABS 0 udata_bank36 -
 __Ludata_bank37 0 0 ABS 0 udata_bank37 -
 __Lconfig 0 0 CONFIG 4 config -
-isa$std 1 0 ABS 0 - build/default/debug/hw2_main.o
+isa$std 1 0 ABS 0 - build/default/production/hw2_main.o
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_3 0 0 ABS 0 - -
@@ -234,7 +258,7 @@ __Ludata_acs 0 0 ABS 0 udata_acs -
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-code 0 1004 1004 20 1
+code 0 1004 1004 50 1
 # %NOTES Section
 # This section contains data of all the note-psects.  The beginning of the section
 # is indicated by %NOTES. The first line indicates the name and decimal
