@@ -12,3 +12,5 @@ laboratory/LB11/
 mplab/*
 !mplab/PIC18F4550_BSF.X
 !mplab/HW2.X
+!laboratory/LB5/README.md
+!laboratory/LB5/img/
