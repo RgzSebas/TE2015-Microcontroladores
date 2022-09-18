@@ -7,9 +7,13 @@
 ## **OBJECTIVES**
 * Create projects on MPLAB X
 * Set configuration bits using MPLAB Code Configurator
-* Drive LED strings using a port of the microcontroller
+* Drive LED strings in your expansion board using a port of the microcontroller
 
 ## **DESCRIPTION**
+In this lab, we will make the transition from low level programming using PIC-AS to high level programming using C. For this, we will go through LED sequences just as we did on LB4; however, this time we will code the sequences on C, which will be useful to understand the difference between low level and high level programming and learn the advantages and disadvantages of both approaches. 
+
+This time, to set the microcontroller configuration bits, we will use MPLAB Code Configuration, which allows us configure the µC using a graphical interface. 
+
 ## **LIST OF MATERIALS**
 This is the first laboratory where we use the Curiosity Nano PIC18R57Q43 board. You as a tean can borrow one board from our stockroom at A7-437; make sure the required USB cable is also provided to you. 
 <div align="center">

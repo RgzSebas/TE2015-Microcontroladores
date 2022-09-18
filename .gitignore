@@ -2,7 +2,8 @@ reserved/
 laboratory/LB3/LB3.X
 laboratory/LB3/LB3_PIC18F45K50.X
 laboratory/LB4/LB4.X/
-laboratory/LB5/
+laboratory/LB5/KnightRider.X/
+laboratory/LB5/Mustang.X/
 laboratory/LB6/
 laboratory/LB7/
 laboratory/LB8/
@@ -12,5 +13,3 @@ laboratory/LB11/
 mplab/*
 !mplab/PIC18F4550_BSF.X
 !mplab/HW2.X
-!laboratory/LB5/README.md
-!laboratory/LB5/img/
