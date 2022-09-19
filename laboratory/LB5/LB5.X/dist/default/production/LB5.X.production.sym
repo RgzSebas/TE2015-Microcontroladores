@@ -288,14 +288,14 @@ cinit 1FED0 1FED5 CODE 1FED0 0
 %locals
 dist/default/production\LB5.X.production.o
 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-Q_DFP/1.13.211/xc8\pic\include\proc\pic18f57q43.h
-C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.s
+C:\Users\matvaz\AppData\Local\Temp\xcAskg4.s
 5384 1FED0 0 CODE 0
 5386 1FED0 0 CODE 0
 5389 1FED0 0 CODE 0
 5395 1FED0 0 CODE 0
 5397 1FED0 0 CODE 0
 5398 1FED2 0 CODE 0
-knight_rider.c
+main.c
 49 1FF24 0 CODE 0
 52 1FF24 0 CODE 0
 67 1FF28 0 CODE 0

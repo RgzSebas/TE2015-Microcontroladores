@@ -2572,40 +2572,40 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-Q_DFP/1.13.211/xc8\pic\include\proc\pic18f57q43.h: 49823: __asm("TOSU equ 04FFh");
 [; <" TOSU equ 04FFh ;# ">
 [v $root$_main `(v ~T0 @X0 0 e ]
-"49 knight_rider.c
-[; ;knight_rider.c: 49: void main(void)
+"49 main.c
+[; ;main.c: 49: void main(void)
 [v _main `(v ~T0 @X0 1 ef ]
 "50
-[; ;knight_rider.c: 50: {
+[; ;main.c: 50: {
 {
 [e :U _main ]
 [f ]
 "52
-[; ;knight_rider.c: 52:     SYSTEM_Initialize();
+[; ;main.c: 52:     SYSTEM_Initialize();
 [e ( _SYSTEM_Initialize ..  ]
 "64
-[; ;knight_rider.c: 64:     while (1)
+[; ;main.c: 64:     while (1)
 [e :U 2359 ]
 "65
-[; ;knight_rider.c: 65:     {
+[; ;main.c: 65:     {
 {
 "67
-[; ;knight_rider.c: 67:         do { LATAbits.LATA0 = ~LATAbits.LATA0; } while(0);
+[; ;main.c: 67:         do { LATAbits.LATA0 = ~LATAbits.LATA0; } while(0);
 [e :U 2363 ]
 {
 [e = . . _LATAbits 0 0 -> ~ -> . . _LATAbits 0 0 `i `uc ]
 }
 [e :U 2362 ]
 "68
-[; ;knight_rider.c: 68:         _delay((unsigned long)((500)*(1000000/4000.0)));
+[; ;main.c: 68:         _delay((unsigned long)((500)*(1000000/4000.0)));
 [e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
 "69
-[; ;knight_rider.c: 69:     }
+[; ;main.c: 69:     }
 }
 [e :U 2358 ]
 [e $U 2359  ]
 [e :U 2360 ]
 "70
-[; ;knight_rider.c: 70: }
+[; ;main.c: 70: }
 [e :UE 2357 ]
 }

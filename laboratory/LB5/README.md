@@ -187,7 +187,7 @@ while (1)
 }
 ```
 
-26. This is all the coding we need to toggle a LED. Now you can build your project and program the &mu;C. To do this, go to _Production_ menu and select *Make and Program Device Main Project*. If no errors are found, your &mu;C should be programmed and you should see a ``Programming/Verify complete`` message in the Output window. If errors are found, you are encouraged to find the errors and correct them yourself before asking the lab instructor. If everything is working properly, you should see now the LED connected to RA0 blinking every second. See the working &mu;C below:
+26. This is all the coding we need to toggle a LED. Now you can build your project and program the &mu;C. To do this, go to _Production_ menu and select *Make and Program Device Main Project*. If no errors are found, your &mu;C should be programmed and you should see a ``Programming/Verify complete`` message in the Output window. If errors are found, you are encouraged to find the errors and correct them yourself before asking the lab instructor. If everything is working properly, you should see now the LED connected to RA0 blinking every second. See the blinking LED below:
 
 <div align="center">
    <img src="img/MyLED.gif">

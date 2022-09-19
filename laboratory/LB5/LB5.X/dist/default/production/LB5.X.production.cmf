@@ -21,7 +21,7 @@ text3 CODE 0 1FF60 1FF60 9C 1 2
 text4 CODE 0 1FEE4 1FEE4 1C 1 2
 cstackCOMRAM COMRAM 1 501 501 1 1 1
 config CONFIG 4 300000 300000 A 1 1
-$C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
+$C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
 idloc IDLOC 5 200000 200000 40 1 1
 init CODE 0 1FFFC 1FFFC 4 1 2
 reset_vec CODE 0 0 0 4 1 2
@@ -163,16 +163,16 @@ $dist/default/production\LB5.X.production.o
 1FEDA text1 CODE >53:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\laboratory\LB5\LB5.X\mcc_generated_files/mcc.c
 1FEDE text1 CODE >54:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\laboratory\LB5\LB5.X\mcc_generated_files/mcc.c
 1FEE2 text1 CODE >55:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\laboratory\LB5\LB5.X\mcc_generated_files/mcc.c
-1FF24 text0 CODE >49:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\laboratory\LB5\LB5.X\knight_rider.c
-1FF24 text0 CODE >52:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\laboratory\LB5\LB5.X\knight_rider.c
-1FF28 text0 CODE >67:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\laboratory\LB5\LB5.X\knight_rider.c
-1FF48 text0 CODE >68:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\laboratory\LB5\LB5.X\knight_rider.c
-1FED0 cinit CODE >5384:C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.s
-1FED0 cinit CODE >5386:C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.s
-1FED0 cinit CODE >5389:C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.s
-1FED0 cinit CODE >5395:C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.s
-1FED0 cinit CODE >5397:C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.s
-1FED2 cinit CODE >5398:C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.s
+1FF24 text0 CODE >49:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\laboratory\LB5\LB5.X\main.c
+1FF24 text0 CODE >52:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\laboratory\LB5\LB5.X\main.c
+1FF28 text0 CODE >67:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\laboratory\LB5\LB5.X\main.c
+1FF48 text0 CODE >68:C:\Users\matvaz\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\courses\TE2015 Microcontroladores\laboratory\LB5\LB5.X\main.c
+1FED0 cinit CODE >5384:C:\Users\matvaz\AppData\Local\Temp\xcAskg4.s
+1FED0 cinit CODE >5386:C:\Users\matvaz\AppData\Local\Temp\xcAskg4.s
+1FED0 cinit CODE >5389:C:\Users\matvaz\AppData\Local\Temp\xcAskg4.s
+1FED0 cinit CODE >5395:C:\Users\matvaz\AppData\Local\Temp\xcAskg4.s
+1FED0 cinit CODE >5397:C:\Users\matvaz\AppData\Local\Temp\xcAskg4.s
+1FED2 cinit CODE >5398:C:\Users\matvaz\AppData\Local\Temp\xcAskg4.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -191,7 +191,7 @@ __Hspace_1 502 0 ABS 0 - dist/default/production\LB5.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production\LB5.X.production.o
 __Hspace_4 60000A 0 ABS 0 - dist/default/production\LB5.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\LB5.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\LB5.X.production.o
 _PMD_Initialize 1FF00 0 CODE 0 text2 dist/default/production\LB5.X.production.o
 __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\LB5.X.production.o
@@ -215,15 +215,15 @@ _WPUC 411 0 ABS 0 - dist/default/production\LB5.X.production.o
 _WPUD 419 0 ABS 0 - dist/default/production\LB5.X.production.o
 _WPUE 421 0 ABS 0 - dist/default/production\LB5.X.production.o
 _WPUF 429 0 ABS 0 - dist/default/production\LB5.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
+___sp 0 0 STACK 2 stack C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
 _main 1FF24 0 CODE 0 text0 dist/default/production\LB5.X.production.o
-start 1FFFC 0 CODE 0 init C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
+start 1FFFC 0 CODE 0 init C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
 __Hpowerup 0 0 CODE 0 powerup dist/default/production\LB5.X.production.o
-__accesstop 560 0 ABS 0 - C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
-intlevel0 0 0 CODE 0 text C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
-intlevel1 0 0 CODE 0 text C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
-intlevel2 0 0 CODE 0 text C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
-intlevel3 0 0 CODE 0 text C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
+__accesstop 560 0 ABS 0 - C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
+intlevel0 0 0 CODE 0 text C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
+intlevel1 0 0 CODE 0 text C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
+intlevel2 0 0 CODE 0 text C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
+intlevel3 0 0 CODE 0 text C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\LB5.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\LB5.X.production.o
 __end_of_PMD_Initialize 1FF24 0 CODE 0 text2 dist/default/production\LB5.X.production.o
@@ -235,8 +235,8 @@ _ANSELC 410 0 ABS 0 - dist/default/production\LB5.X.production.o
 _ANSELD 418 0 ABS 0 - dist/default/production\LB5.X.production.o
 _ANSELE 420 0 ABS 0 - dist/default/production\LB5.X.production.o
 _ANSELF 428 0 ABS 0 - dist/default/production\LB5.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\LB5.X.production.o
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\LB5.X.production.o
 _INLVLA 404 0 ABS 0 - dist/default/production\LB5.X.production.o
@@ -261,7 +261,7 @@ _RB2I2C 288 0 ABS 0 - dist/default/production\LB5.X.production.o
 _RC3I2C 287 0 ABS 0 - dist/default/production\LB5.X.production.o
 _RC4I2C 286 0 ABS 0 - dist/default/production\LB5.X.production.o
 __end_of_SYSTEM_Initialize 1FEE4 0 CODE 0 text1 dist/default/production\LB5.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
+isa$xinst 0 0 ABS 0 - C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
 __Hbank5 0 0 ABS 0 bank5 dist/default/production\LB5.X.production.o
 __Hbank6 0 0 ABS 0 bank6 dist/default/production\LB5.X.production.o
 __Hbank7 0 0 ABS 0 bank7 dist/default/production\LB5.X.production.o
@@ -310,7 +310,7 @@ __Hbank36 0 0 ABS 0 bank36 dist/default/production\LB5.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\LB5.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\LB5.X.production.o
 __Hbigsfr 0 0 ABS 0 bigsfr dist/default/production\LB5.X.production.o
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\LB5.X.production.o
 __Hconfig 30000A 0 CONFIG 4 config dist/default/production\LB5.X.production.o
 __Lbank5 0 0 ABS 0 bank5 dist/default/production\LB5.X.production.o
@@ -397,9 +397,9 @@ __Lconfig 0 0 CONFIG 4 config dist/default/production\LB5.X.production.o
 _LATAbits 4BE 0 ABS 0 - dist/default/production\LB5.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\LB5.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\LB5.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
-stackhi 0 0 ABS 0 - C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
-stacklo 0 0 ABS 0 - C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
+isa$std 1 0 ABS 0 - C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
+stackhi 0 0 ABS 0 - C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
+stacklo 0 0 ABS 0 - C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
 _OSCCON1 AD 0 ABS 0 - dist/default/production\LB5.X.production.o
 _OSCCON3 AF 0 ABS 0 - dist/default/production\LB5.X.production.o
 _OSCTUNE B0 0 ABS 0 - dist/default/production\LB5.X.production.o
@@ -421,7 +421,7 @@ __ptext2 1FF00 0 CODE 0 text2 dist/default/production\LB5.X.production.o
 __ptext3 1FF60 0 CODE 0 text3 dist/default/production\LB5.X.production.o
 __ptext4 1FEE4 0 CODE 0 text4 dist/default/production\LB5.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\LB5.X.production.o
-__ramtop 2500 0 RAM 0 ramtop C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
+__ramtop 2500 0 RAM 0 ramtop C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\LB5.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\LB5.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\LB5.X.production.o
@@ -431,8 +431,8 @@ _SLRCONC 413 0 ABS 0 - dist/default/production\LB5.X.production.o
 _SLRCOND 41B 0 ABS 0 - dist/default/production\LB5.X.production.o
 _SLRCONE 423 0 ABS 0 - dist/default/production\LB5.X.production.o
 _SLRCONF 42B 0 ABS 0 - dist/default/production\LB5.X.production.o
-___heap_hi 0 0 ABS 0 - C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
-___heap_lo 0 0 ABS 0 - C:\Users\matvaz\AppData\Local\Temp\xcAsv2g.o
+___heap_hi 0 0 ABS 0 - C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
+___heap_lo 0 0 ABS 0 - C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
 ___param_bank 0 0 ABS 0 - dist/default/production\LB5.X.production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\LB5.X.production.o
 __end_of__initialization 1FED0 0 CODE 0 cinit dist/default/production\LB5.X.production.o
