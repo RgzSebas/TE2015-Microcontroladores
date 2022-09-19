@@ -16,14 +16,13 @@ This repository aims to help you understand the topics covered in TE2015 Microco
 ## Laboratory
 | WEEK | DATE | LABORATORY |
 | :---: | :--- | :--- |
-| 33 |  8 Aug | [LB1 Hardware design: schematic capture](laboratory/LB1/README.md) |
-| 34, 35 | 15, 22 Aug | [LB2 Hardware design: physicial layout](laboratory/LB2/README.md) |
-| 36 | 29 Aug | [LB3 PIC18 and MPLAB basics](laboratory/LB3/README.md) |
+| 32 |  8 Aug | [LB1 Hardware design: schematic capture](laboratory/LB1/README.md) |
+| 33, 34 | 15, 22 Aug | [LB2 Hardware design: physicial layout](laboratory/LB2/README.md) |
+| 35 | 29 Aug | [LB3 PIC18 and MPLAB basics](laboratory/LB3/README.md) |
+| 36, 37 | 5, 12/Sep  | [LB4 Assembly programming of PIC18](laboratory/LB4/README.md)|
+| 38, 39 | 19, 26/Sep | [LB5 Fundamentals of C for PIC programming](laboratory/LB5/README.md) |
+
 <!--
-| 37 | 5/Sep  | LB4 Assembly programming of PIC18 |
-| 38 | 12/Sep | LB4 Assembly programming of PIC18 |
-| 39 | 19/Sep | LB5 High-level programming of PIC18 with C|
-| 40 | 26/Sep | LB5 High-level programming of PIC18 with C|
 | 41 | 3/Oct  | LB6 GPIO: LCD display |
 | 42 | 10/Oct | LB7 GPIO: 4x4 keypad and 7-segment display |
 | 43 | 17/Oct | LB8 Hardware interrupts and the Interrupt Service Rutines|
