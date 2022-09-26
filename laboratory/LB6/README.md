@@ -36,7 +36,7 @@ If we assign a logic 0 to only one of the output pins and a logic 1 to the rest,
 
 The same procedure applies when more than one column are used. If we have four rows and four columns, 8 pins from the &mu;C are required: 4 for multiplexing the active row, and 4 to read the value at each column. In this case, we would need to read the upper nibble each time to figure which button of the four columns is pressed:
 <div align="center">
-<img width=400, src="img/pullups3.png">
+<img width=800, src="img/pullups3.png">
 </div>
 
 Assuming the top row is Row 1, and leftmost column is Column 1, we control the values assigned to Rows 1 through 4 by RF0 through RF3, respectively. We also read a 4-bit value at RF4 through RF8. If we assign `RF=0xE` to activate Row 1, then we can check for any button on the top row to be pressed. If the upper nibble of RF reads `0x0111`, it means that `SW1` is pressed (Row 1 shorted to Column 1 by `SW1`). If we, instead, read `0x1011`, it means that `SW2` is pressed (Row 1 shorted to Column 2 by `SW2`), and so on. We then shift to Row 2 and repeat the reading process. 
