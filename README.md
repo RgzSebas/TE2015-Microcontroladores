@@ -14,23 +14,22 @@ This repository aims to help you understand the topics covered in TE2015 Microco
 * To study serial communication protocols to communicate a microcontroller with an external device
 
 ## Laboratory
-| WEEK | DATE | LABORATORY |
-| :---: | :--- | :--- |
-| 32 |  8 Aug | [LB1 Hardware design: schematic capture](laboratory/LB1/README.md) |
-| 33, 34 | 15, 22 Aug | [LB2 Hardware design: physicial layout](laboratory/LB2/README.md) |
-| 35 | 29 Aug | [LB3 PIC18 and MPLAB basics](laboratory/LB3/README.md) |
-| 36, 37 | 5, 12/Sep  | [LB4 Assembly programming of PIC18](laboratory/LB4/README.md)|
-| 38, 39 | 19, 26/Sep | [LB5 Fundamentals of C for PIC programming](laboratory/LB5/README.md) |
-
+| DATE | LABORATORY |
+| :--- | :--- |
+| 8 Aug | [LB1 Hardware design: schematic capture](laboratory/LB1/README.md) |
+| 15, 22 Aug | [LB2 Hardware design: physicial layout](laboratory/LB2/README.md) |
+| 29 Aug | [LB3 PIC18 and MPLAB basics](laboratory/LB3/README.md) |
+| 5, 12/Sep  | [LB4 Assembly programming of PIC18](laboratory/LB4/README.md)|
+| 19/Sep | [LB5 Fundamentals of C for PIC programming](laboratory/LB5/README.md) |
+| 26/Sep | [LB6 GPIO: 4x4 keypad and 7-segment display](laboratory/LB6/README.md) |
 <!--
-| 41 | 3/Oct  | LB6 GPIO: LCD display |
-| 42 | 10/Oct | LB7 GPIO: 4x4 keypad and 7-segment display |
-| 43 | 17/Oct | LB8 Hardware interrupts and the Interrupt Service Rutines|
-| 44 | 24/Oct | LB8 Hardware interrupts and the Interrupt Service Rutines|
-| 45 | 31/Oct | LB9 Timers, comparators and PWM|
-| 46 | 7/Nov  | LB10 Analog inputs for microcontrollers|
-| 47 | 14/Nov | LB11 Asynchronous serial communications|
-| 48 | 21/Nov | HOLIDAY |
+| 10/Oct | LB7 GPIO: 16x2 Liquid Crystal Display |
+| 17/Oct | LB8 Hardware interrupts and the Interrupt Service Rutines|
+| 24/Oct | LB8 Hardware interrupts and the Interrupt Service Rutines|
+| 31/Oct | LB9 Timers, comparators and PWM|
+| 7/Nov  | LB10 Analog inputs for microcontrollers|
+| 14/Nov | LB11 Asynchronous serial communications|
+| 21/Nov | HOLIDAY |
 -->
 
 ## Hands-on Exercises

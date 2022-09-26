@@ -60,7 +60,6 @@ void main(void)
 
     // Disable the Global Interrupts
     //INTERRUPT_GlobalInterruptDisable();
-
     while (1)
     {
         // Add your application code

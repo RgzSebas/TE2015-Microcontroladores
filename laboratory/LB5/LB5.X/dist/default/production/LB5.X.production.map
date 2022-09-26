@@ -5,9 +5,9 @@ Linker command line:
 -W-3 --edf=C:\Program Files\Microchip\xc8\v2.36\pic\dat\en_msgs.txt -cn \
   -h+dist/default/production\LB5.X.production.sym \
   --cmf=dist/default/production\LB5.X.production.cmf -z -Q18F57Q43 \
-  -oC:\Users\matvaz\AppData\Local\Temp\xcAskg4.4 --defsym=__MPLAB_BUILD=1 \
+  -oC:\Users\matvaz\AppData\Local\Temp\xcAssoc.4 --defsym=__MPLAB_BUILD=1 \
   -Mdist/default/production/LB5.X.production.map \
-  --md=C:\Users\matvaz\AppData\Local\Temp\xcAskg4.dat -E1 -ver=XC8 Compiler \
+  --md=C:\Users\matvaz\AppData\Local\Temp\xcAssoc.dat -E1 -ver=XC8 Compiler \
   --acfsm=1493 -ACODE=00h-01FFFFh -ACONST=00h-01FFFFh \
   -ASMALLCONST=02500h-025FFhx475 \
   -AMEDIUMCONST=02500h-0FFFFh,012500h-01FFFFh -ACOMRAM=0501h-055Fh \
@@ -33,7 +33,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o \
+  C:\Users\matvaz\AppData\Local\Temp\xcAssoc.o \
   dist/default/production\LB5.X.production.o 
 
 Object code version is 3.11
@@ -43,7 +43,7 @@ Machine type is 18F57Q43
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\matvaz\AppData\Local\Temp\xcAskg4.o
+C:\Users\matvaz\AppData\Local\Temp\xcAssoc.o
                 idloc                            200000   200000       40        0       5
                 config                           300000   300000        A        0       4
                 init                              1FFFC    1FFFC        4     FFFE       0

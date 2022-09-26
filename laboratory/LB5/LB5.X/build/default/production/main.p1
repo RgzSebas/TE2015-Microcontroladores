@@ -2583,29 +2583,29 @@ Version 4.0 HI-TECH Software Intermediate Code
 "52
 [; ;main.c: 52:     SYSTEM_Initialize();
 [e ( _SYSTEM_Initialize ..  ]
-"64
-[; ;main.c: 64:     while (1)
+"63
+[; ;main.c: 63:     while (1)
 [e :U 2359 ]
-"65
-[; ;main.c: 65:     {
+"64
+[; ;main.c: 64:     {
 {
-"67
-[; ;main.c: 67:         do { LATAbits.LATA0 = ~LATAbits.LATA0; } while(0);
+"66
+[; ;main.c: 66:         do { LATAbits.LATA0 = ~LATAbits.LATA0; } while(0);
 [e :U 2363 ]
 {
 [e = . . _LATAbits 0 0 -> ~ -> . . _LATAbits 0 0 `i `uc ]
 }
 [e :U 2362 ]
-"68
-[; ;main.c: 68:         _delay((unsigned long)((500)*(1000000/4000.0)));
+"67
+[; ;main.c: 67:         _delay((unsigned long)((500)*(1000000/4000.0)));
 [e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"69
-[; ;main.c: 69:     }
+"68
+[; ;main.c: 68:     }
 }
 [e :U 2358 ]
 [e $U 2359  ]
 [e :U 2360 ]
-"70
-[; ;main.c: 70: }
+"69
+[; ;main.c: 69: }
 [e :UE 2357 ]
 }
