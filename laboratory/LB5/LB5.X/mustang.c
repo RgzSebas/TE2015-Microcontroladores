@@ -64,7 +64,7 @@ void main(void)
     while (1)
     {
         // Add your application code
-        KR3_Toggle(); // Toggle 4th LED (Start High = False))
+        KR3_Toggle(); // Toggle 4th LED (Start High = False, therefore LED will turn ON)
         KR4_Toggle(); // Toggle 5th LED     
         __delay_ms(step);  // Wait for value in step (in ms)
         KR2_Toggle(); // Toggle 3th LED 
@@ -76,7 +76,7 @@ void main(void)
         KR0_Toggle(); // Toggle 1th LED 
         KR7_Toggle(); // Toggle 8th LED     
         __delay_ms(step);  // Wait for value in step (in ms)
-        // Turn off all LEDs
+        // Turn OFF all LEDs
         KR3_Toggle(); // Toggle 4th LED 
         KR4_Toggle(); // Toggle 5th LED     
         KR2_Toggle(); // Toggle 3th LED 
