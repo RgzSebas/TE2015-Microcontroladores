@@ -1,4 +1,4 @@
-# 1 "main.c"
+# 1 "mustang.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 288 "<built-in>" 3
@@ -6,8 +6,8 @@
 # 1 "<built-in>" 2
 # 1 "C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-Q_DFP/1.13.211/xc8\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
-# 1 "main.c" 2
-# 44 "main.c"
+# 1 "mustang.c" 2
+# 44 "mustang.c"
 # 1 "./mcc_generated_files/mcc.h" 1
 # 49 "./mcc_generated_files/mcc.h"
 # 1 "C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-Q_DFP/1.13.211/xc8\\pic\\include\\xc.h" 1 3
@@ -28868,7 +28868,8 @@ void SYSTEM_Initialize(void);
 void OSCILLATOR_Initialize(void);
 # 95 "./mcc_generated_files/mcc.h"
 void PMD_Initialize(void);
-# 44 "main.c" 2
+# 44 "mustang.c" 2
+
 
 
 
@@ -28878,11 +28879,30 @@ void main(void)
 {
 
     SYSTEM_Initialize();
-# 63 "main.c"
+# 64 "mustang.c"
     while (1)
     {
 
-        MyLED_Toggle();
-        _delay((unsigned long)((500)*(1000000/4000.0)));
+        do { LATAbits.LATA3 = ~LATAbits.LATA3; } while(0);
+        do { LATAbits.LATA4 = ~LATAbits.LATA4; } while(0);
+        _delay((unsigned long)((50)*(1000000/4000.0)));
+        do { LATAbits.LATA2 = ~LATAbits.LATA2; } while(0);
+        do { LATAbits.LATA5 = ~LATAbits.LATA5; } while(0);
+        _delay((unsigned long)((50)*(1000000/4000.0)));
+        do { LATAbits.LATA1 = ~LATAbits.LATA1; } while(0);
+        do { LATAbits.LATA6 = ~LATAbits.LATA6; } while(0);
+        _delay((unsigned long)((50)*(1000000/4000.0)));
+        do { LATAbits.LATA0 = ~LATAbits.LATA0; } while(0);
+        do { LATAbits.LATA7 = ~LATAbits.LATA7; } while(0);
+        _delay((unsigned long)((50)*(1000000/4000.0)));
+        do { LATAbits.LATA3 = ~LATAbits.LATA3; } while(0);
+        do { LATAbits.LATA4 = ~LATAbits.LATA4; } while(0);
+        do { LATAbits.LATA2 = ~LATAbits.LATA2; } while(0);
+        do { LATAbits.LATA5 = ~LATAbits.LATA5; } while(0);
+        do { LATAbits.LATA1 = ~LATAbits.LATA1; } while(0);
+        do { LATAbits.LATA6 = ~LATAbits.LATA6; } while(0);
+        do { LATAbits.LATA0 = ~LATAbits.LATA0; } while(0);
+        do { LATAbits.LATA7 = ~LATAbits.LATA7; } while(0);
+        _delay((unsigned long)((50)*(1000000/4000.0)));
     }
 }

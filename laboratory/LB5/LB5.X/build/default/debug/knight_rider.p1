@@ -3,9 +3,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "69 ./mcc_generated_files/mcc.h
 [; ;./mcc_generated_files/mcc.h: 69: void SYSTEM_Initialize(void);
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
-"66 main.c
-[; ;main.c: 66:         MyLED_Toggle();
-[v _MyLED_Toggle `(i ~T0 @X0 0 e? ]
+"47513 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-Q_DFP/1.13.211/xc8\pic\include\proc\pic18f57q43.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-Q_DFP/1.13.211/xc8\pic\include\proc\pic18f57q43.h: 47513: extern volatile unsigned char LATA __attribute__((address(0x4BE)));
+[v _LATA `Vuc ~T0 @X0 0 e@1214 ]
 [v F192 `(v ~T0 @X0 1 tf1`ul ]
 "12 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-Q_DFP/1.13.211/xc8\pic\include\builtins.h
 [v __delay `JF192 ~T0 @X0 0 e ]
@@ -2564,36 +2564,85 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-Q_DFP/1.13.211/xc8\pic\include\proc\pic18f57q43.h: 49823: __asm("TOSU equ 04FFh");
 [; <" TOSU equ 04FFh ;# ">
 [v $root$_main `(v ~T0 @X0 0 e ]
-"49 main.c
-[; ;main.c: 49: void main(void)
+"50 knight_rider.c
+[; ;knight_rider.c: 50: void main(void)
 [v _main `(v ~T0 @X0 1 ef ]
-"50
-[; ;main.c: 50: {
+"51
+[; ;knight_rider.c: 51: {
 {
 [e :U _main ]
 [f ]
-"52
-[; ;main.c: 52:     SYSTEM_Initialize();
+"53
+[; ;knight_rider.c: 53:     SYSTEM_Initialize();
 [e ( _SYSTEM_Initialize ..  ]
-"63
-[; ;main.c: 63:     while (1)
-[e :U 2359 ]
 "64
-[; ;main.c: 64:     {
+[; ;knight_rider.c: 64:     while (1)
+[e :U 2359 ]
+"65
+[; ;knight_rider.c: 65:     {
 {
-"66
-[; ;main.c: 66:         MyLED_Toggle();
-[e ( _MyLED_Toggle ..  ]
 "67
-[; ;main.c: 67:         _delay((unsigned long)((500)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+[; ;knight_rider.c: 67:         char pos = 0x01;
+[v _pos `uc ~T0 @X0 1 a ]
+[e = _pos -> -> 1 `i `uc ]
 "68
-[; ;main.c: 68:     }
+[; ;knight_rider.c: 68:         char i;
+[v _i `uc ~T0 @X0 1 a ]
+"69
+[; ;knight_rider.c: 69:         for (i=0; i<7; i++){
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 7 `i 2361  ]
+[e $U 2362  ]
+[e :U 2361 ]
+{
+"70
+[; ;knight_rider.c: 70:            LATA = pos;
+[e = _LATA -> _pos `uc ]
+"71
+[; ;knight_rider.c: 71:            _delay((unsigned long)((50)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"72
+[; ;knight_rider.c: 72:            pos = pos<<1;
+[e = _pos -> << -> _pos `i -> 1 `i `uc ]
+"73
+[; ;knight_rider.c: 73:         }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 7 `i 2361  ]
+[e :U 2362 ]
+}
+"74
+[; ;knight_rider.c: 74:         for (i=7; i>0; i--){
+{
+[e = _i -> -> 7 `i `uc ]
+[e $ > -> _i `i -> 0 `i 2364  ]
+[e $U 2365  ]
+[e :U 2364 ]
+{
+"75
+[; ;knight_rider.c: 75:            LATA = pos;
+[e = _LATA -> _pos `uc ]
+"76
+[; ;knight_rider.c: 76:            _delay((unsigned long)((50)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"77
+[; ;knight_rider.c: 77:            pos = pos>>1;
+[e = _pos -> >> -> _pos `i -> 1 `i `uc ]
+"78
+[; ;knight_rider.c: 78:         }
+}
+[e -- _i -> -> 1 `i `uc ]
+[e $ > -> _i `i -> 0 `i 2364  ]
+[e :U 2365 ]
+}
+"79
+[; ;knight_rider.c: 79:     }
 }
 [e :U 2358 ]
 [e $U 2359  ]
 [e :U 2360 ]
-"69
-[; ;main.c: 69: }
+"80
+[; ;knight_rider.c: 80: }
 [e :UE 2357 ]
 }

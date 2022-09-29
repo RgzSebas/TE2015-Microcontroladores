@@ -4,11 +4,11 @@ Linker command line:
 
 -W-3 \
   --edf=C:\Program Files\Microchip\xc8\v2.40\pic\dat\20220703182018_en.msgs \
-  -cn -h+dist/default/production\LB5.X.production.sym \
-  --cmf=dist/default/production\LB5.X.production.cmf -z -Q18F57Q43 \
-  -oC:\Users\SEBAST~1\AppData\Local\Temp\xcAs6uo.4 --defsym=__MPLAB_BUILD=1 \
-  --fixupoverflow=error -Mdist/default/production/LB5.X.production.map \
-  --md=C:\Users\SEBAST~1\AppData\Local\Temp\xcAs6uo.dat -E1 \
+  -cn -h+dist/default/debug\LB5.X.debug.sym \
+  --cmf=dist/default/debug\LB5.X.debug.cmf -z -Q18F57Q43 \
+  -oC:\Users\SEBAST~1\AppData\Local\Temp\xcAs9r0.4 --defsym=__MPLAB_BUILD=1 \
+  --fixupoverflow=error -Mdist/default/debug/LB5.X.debug.map \
+  --md=C:\Users\SEBAST~1\AppData\Local\Temp\xcAs9r0.dat -E1 \
   -ver=XC8 Compiler --acfsm=1493 -ACODE=00h-01FFFFh -ACONST=00h-01FFFFh \
   -ASMALLCONST=02600h-026FFhx474 \
   -AMEDIUMCONST=02600h-0FFFFh,012600h-01FFFFh -ACOMRAM=0501h-055Fh \
@@ -34,8 +34,8 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\SEBAST~1\AppData\Local\Temp\xcAs6uo.o \
-  dist/default/production\LB5.X.production.o 
+  C:\Users\SEBAST~1\AppData\Local\Temp\xcAs9r0.o \
+  dist/default/debug\LB5.X.debug.o 
 
 Object code version is 3.11
 
@@ -44,12 +44,12 @@ Machine type is 18F57Q43
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\SEBAST~1\AppData\Local\Temp\xcAs6uo.o
+C:\Users\SEBAST~1\AppData\Local\Temp\xcAs9r0.o
                 idloc                            200000   200000       40        0       5
                 config                           300000   300000        A        0       4
                 init                              1FFFC    1FFFC        4     FFFE       0
                 reset_vec                             0        0        4        0       0
-dist/default/production\LB5.X.production.o
+dist/default/debug\LB5.X.debug.o
                 idloc                            200000   200000       40        0       5
                 config                           300000   300000        A        0       4
                 text4                             1FC8C    1FC8C       1C     FE46       0

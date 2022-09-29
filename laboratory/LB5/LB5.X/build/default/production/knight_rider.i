@@ -1,4 +1,4 @@
-# 1 "main.c"
+# 1 "knight_rider.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 288 "<built-in>" 3
@@ -6,8 +6,8 @@
 # 1 "<built-in>" 2
 # 1 "C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-Q_DFP/1.13.211/xc8\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
-# 1 "main.c" 2
-# 44 "main.c"
+# 1 "knight_rider.c" 2
+# 44 "knight_rider.c"
 # 1 "./mcc_generated_files/mcc.h" 1
 # 49 "./mcc_generated_files/mcc.h"
 # 1 "C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-Q_DFP/1.13.211/xc8\\pic\\include\\xc.h" 1 3
@@ -28868,7 +28868,8 @@ void SYSTEM_Initialize(void);
 void OSCILLATOR_Initialize(void);
 # 95 "./mcc_generated_files/mcc.h"
 void PMD_Initialize(void);
-# 44 "main.c" 2
+# 44 "knight_rider.c" 2
+
 
 
 
@@ -28878,11 +28879,21 @@ void main(void)
 {
 
     SYSTEM_Initialize();
-# 63 "main.c"
+# 64 "knight_rider.c"
     while (1)
     {
 
-        MyLED_Toggle();
-        _delay((unsigned long)((500)*(1000000/4000.0)));
+        char pos = 0x01;
+        char i;
+        for (i=0; i<7; i++){
+           LATA = pos;
+           _delay((unsigned long)((50)*(1000000/4000.0)));
+           pos = pos<<1;
+        }
+        for (i=7; i>0; i--){
+           LATA = pos;
+           _delay((unsigned long)((50)*(1000000/4000.0)));
+           pos = pos>>1;
+        }
     }
 }
